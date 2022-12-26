@@ -1,0 +1,15 @@
+.flex-container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-container > div {
+  width: 30%;
+  height: 50px;
+  background-color: green;
+  margin-right: 5%;
+  flex-wrap: wrap;
+}
